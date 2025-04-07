@@ -3,6 +3,7 @@ use anyhow::Result;
 
 fn main() {
     println!("Hello, world!");
+    println!("For testing the new changes in service");
 }
 
 fn fetch_repo() -> Result<git2::Repository> {
