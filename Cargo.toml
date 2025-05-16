@@ -9,7 +9,7 @@ git2 = "0.20"
 dictionary = { path = "./dictionary/" }
 
 [workspace]
-members = ["dictionary"]
+members = ["dictionary", "riminfo"]
 resolver = "2"
 
 [[bin]]
