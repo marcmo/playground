@@ -4,6 +4,7 @@ use git2::{Remote, Repository};
 fn main() {
     println!("Hello, world!");
     println!("Lorem Ipsum.....");
+    println!("Individual commit message for a different branch test3");
     println!("Rim info file should start with {}", dictionary::RIM_INFO);
     println!("Rim info file should start with {}", dictionary::RIM_INFO);
     println!("Rim info file should start with {}", dictionary::RIM_INFO);
