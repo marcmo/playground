@@ -3,6 +3,7 @@ use git2::{Remote, Repository};
 
 fn main() {
     println!("Hello, world!");
+    println!("This commit should not print the changeID");
     println!("Lorem Ipsum.....");
     println!("Rim info file should start with {}", dictionary::RIM_INFO);
     println!("Rim info file should start with {}", dictionary::RIM_INFO);
